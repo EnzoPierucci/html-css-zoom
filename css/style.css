@@ -21,9 +21,7 @@ header .icons {
     align-items: center;
 }
 
-header .icons i {
-    margin-left: 10px;
-}
+
 
 header .speaker-view {
     display: flex;
@@ -32,6 +30,14 @@ header .speaker-view {
 
 header .speaker-view i {
     margin-right: 5px;
+
+}
+
+header div{
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 3px;
 }
 
 main {
@@ -63,15 +69,17 @@ main {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: black;
+    background-color:#606D78;
     color: white;
     padding: 5px;
     display: flex;
     align-items: center;
+    fill: white;
 }
 
 .mute-overlay i {
     margin-right: 5px;
+    
 }
 
 footer {
@@ -99,7 +107,11 @@ footer {
 footer i {
     font-size: 24px;
     margin: 0 10px;
-    cursor: pointer;
+    
+}
+
+footer span{
+    font-size: 10px;
 }
 
 .end-meeting-button {
@@ -108,5 +120,5 @@ footer i {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
+    
 }
